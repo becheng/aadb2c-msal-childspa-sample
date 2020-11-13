@@ -27,7 +27,7 @@
   <script src="https://secure.aadcdn.microsoftonline-p.com/lib/1.0.0/js/msal.js"></script>
   <script src="https://code.jquery.com/jquery-3.2.1.min.js" class="pre"></script>
 
-  <h2>SPA 1</h2>
+  <h2>SPA 2 (downstream)</h2>
   <div id="welcomeMessage"></div>
   <br>
   <div>
@@ -57,7 +57,7 @@
     var msalConfig = {
         auth: {
             clientId: "473e8de8-1dda-4ed7-a44e-c879b5c00ef0", //This is your client ID
-            authority: "https://wabbit1317b2c.b2clogin.com/tfp/wabbit1317b2c.onmicrosoft.com/B2C_1_SignUpnInV2", //This is your tenant info
+            authority: "https://wabbit1317b2c.b2clogin.com/tfp/wabbit1317b2c.onmicrosoft.com/B2C_1_SignUpnInV2/v2.0",
             validateAuthority: false
         },
         cache: {
